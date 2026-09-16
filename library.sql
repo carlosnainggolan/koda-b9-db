@@ -30,3 +30,23 @@ CREATE TABLE petugas (
   peminjaman_id INT REFERENCES peminjaman(id)
 );
 
+-- CREATE USER 'brandsma'
+-- WITH SUPERUSER
+-- LOGIN PASSWORD '12345';
+
+-- GRANT SELECT 
+-- ON ALL TABLES IN SCHEMA public
+-- TO carlos;
+
+-- REVOKE SELECT
+
+-- ON TABLE public.buku
+-- FROM carlos;
+
+-- CREATE DATABASE basisdata 
+-- OWNER carlos;
+
+CREATE DATABASE movies;
+DROP DATABASE movies;
+CREATE DATABASE movies WITH TEMPLATE template0;
+
